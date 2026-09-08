@@ -1,5 +1,3 @@
-# obesity-level-prediction
-Predicts obesity level categories (underweight to obese) using classification models trained on demographic, dietary, and lifestyle features.
 # Obesity Level Classification Using Machine Learning
 
 ## Project Overview
@@ -29,9 +27,9 @@ A multiclass Logistic Regression model using the One-vs-One classification strat
 4. Remove duplicate records
 5. Separate features and target
 6. Identify categorical and numerical features
-7. Apply One-Hot Encoding
-8. Apply feature scaling
-9. Split data into training and testing sets
+7. Split the data into training and testing sets
+8. Apply One-Hot Encoding
+9. Apply feature scaling
 10. Train a Logistic Regression model using One-vs-One classification
 11. Generate predictions
 12. Evaluate the model using accuracy and classification metrics
@@ -55,6 +53,8 @@ The model's performance is evaluated using:
 * Recall
 * F1-score
 * Confusion Matrix
+
+The project also allows predictions to be made for new user-provided data.
 
 ## Project Purpose
 
