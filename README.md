@@ -54,6 +54,10 @@ The model's performance is evaluated using:
 * F1-score
 * Confusion Matrix
 
+## Model Performance
+
+The One-vs-One Logistic Regression model achieved an accuracy of **92.58%** on the test dataset.
+
 The project also allows predictions to be made for new user-provided data.
 
 ## Project Purpose
